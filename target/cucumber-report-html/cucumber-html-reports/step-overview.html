@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html>
+<head>
+  
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/jquery.tablesorter.min.js"></script>
+<script type="text/javascript" src="js/Chart.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css"/>
+<link rel="stylesheet" href="css/reporting.css" type="text/css"/>
+<link rel="stylesheet" href="css/font-awesome.min.css"/>
+<link rel="shortcut icon" href="images/favicon.png"/>
+
+<script type="text/javascript">
+$(document).ready(function() {
+    // this will tell tablesorter to try looking for the data-value attribute
+    // if present, it'll sort by that instead
+    // otherwise, it'll sort by the text content of the table cell
+    $("#tablesorter").tablesorter({
+        textAttribute: 'data-value',
+        // ignores the first row of the header, the 'scenario', 'steps', since
+        // sorting those doesn't make sense
+        selectorHeaders: '> thead tr:not(.dont-sort) th',
+        // use a stable sort
+        sortStable: true
+    });
+});
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+  
+<title>Cucumber-JVM Reports  - Steps Overview</title>
+
+</head>
+<body>
+
+<nav class="navbar navbar-default navbar-fixed-top" id="navigation">
+  <div class="container-fluid">
+    <div class="collapse navbar-collapse">
+      <p class="navbar-text navbar-left">Cucumber-JVM Report</p>
+      <ul class="nav navbar-nav navbar-right">
+                <li role="presentation" ><a href="feature-overview.html">Features</a></li>
+        <li role="presentation" ><a href="tag-overview.html">Tags</a></li>
+        <li role="presentation"     class="active" ><a href="step-overview.html">Steps</a></li>
+        <li role="presentation" ><a href="failures-overview.html">Failures</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="container-fluid" id="build-info">
+  <div class="row">
+    <div class="col-md-6 col-md-offset-1">
+      <table class="table table-bordered">
+        <thead>
+          <tr>
+            <th>Project</th>
+                          <th>Number</th>
+                        <th>Date</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="info">
+            <td>Randle</td>
+                          <td>1</td>
+                        <td>07 Nov 2018, 13:01</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
+
+<div id="report-lead" class="container-fluid>
+  <div class="row">
+    <div class="col-md-10 col-md-offset-1">
+      <h2>Steps Statistics</h2>
+              <p>The following graph shows step statistics for this build. Below list is based on results.
+ step does not provide information about result then is not listed below.
+ Additionally @Before and @After are not counted because they are part of the scenarios, not steps.</p>
+          </div>
+  </div>
+</div>
+
+<div class="container-fluid" id="summary">
+  <div class="row">
+    <div class="col-md-10 col-md-offset-1">
+              <table id="tablesorter" class="stats-table table-hover">
+
+          <thead>
+            <tr class="header">
+              <th>Implementation</th>
+              <th>Occurrences</th>
+              <th>Duration</th>
+              <th>Average</th>
+              <th>Ratio</th>
+            </tr>
+          </thead>
+
+          <tbody>
+                          <tr>
+                <td class="location">Common.i_am_on_the_home_page()</td>
+                <td>9</td>
+                <td class="duration" data-value="63381146036">1m 3s 381ms</td>
+                <td class="duration" data-value="7042349559">7s 042ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">Common.i_see_a_logo_Banner()</td>
+                <td>9</td>
+                <td class="duration" data-value="1745301438">1s 745ms</td>
+                <td class="duration" data-value="193922382">193ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">ForgotPassword.iClickBackToLoginButton()</td>
+                <td>2</td>
+                <td class="duration" data-value="5135727266">5s 135ms</td>
+                <td class="duration" data-value="2567863633">2s 567ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">ForgotPassword.iClickForgotPasswordLink()</td>
+                <td>2</td>
+                <td class="duration" data-value="1600869616">1s 600ms</td>
+                <td class="duration" data-value="800434808">800ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">ForgotPassword.iClickRetrievePasswordButton()</td>
+                <td>2</td>
+                <td class="duration" data-value="1625558031">1s 625ms</td>
+                <td class="duration" data-value="812779015">812ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">ForgotPassword.iEnterUnregisteredUserEmailDetails(String)</td>
+                <td>1</td>
+                <td class="duration" data-value="170941578">170ms</td>
+                <td class="duration" data-value="170941578">170ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">ForgotPassword.iShouldSeeAConfirmationMessage()</td>
+                <td>1</td>
+                <td class="duration" data-value="51086670">051ms</td>
+                <td class="duration" data-value="51086670">051ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">ForgotPassword.iShouldSeeAnErrorMessage()</td>
+                <td>1</td>
+                <td class="duration" data-value="52938336">052ms</td>
+                <td class="duration" data-value="52938336">052ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">Login.iEnterUserEmailDetails(String)</td>
+                <td>8</td>
+                <td class="duration" data-value="1519126651">1s 519ms</td>
+                <td class="duration" data-value="189890831">189ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">Login.iEnterUserPasswordDetails(String)</td>
+                <td>7</td>
+                <td class="duration" data-value="15318588275">15s 318ms</td>
+                <td class="duration" data-value="2188369753">2s 188ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">Login.iShouldSeeAnErrorMessageDetails(String)</td>
+                <td>6</td>
+                <td class="duration" data-value="9243245665">9s 243ms</td>
+                <td class="duration" data-value="1540540944">1s 540ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">Login.i_Sign_out()</td>
+                <td>1</td>
+                <td class="duration" data-value="1630652562">1s 630ms</td>
+                <td class="duration" data-value="1630652562">1s 630ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">Login.i_click_SignIn_button()</td>
+                <td>9</td>
+                <td class="duration" data-value="9720938195">9s 720ms</td>
+                <td class="duration" data-value="1080104243">1s 080ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">Login.i_click_the_Login_Button()</td>
+                <td>7</td>
+                <td class="duration" data-value="5372184419">5s 372ms</td>
+                <td class="duration" data-value="767454917">767ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">Login.i_should_be_logged_in_successfully()</td>
+                <td>1</td>
+                <td class="duration" data-value="61063927">061ms</td>
+                <td class="duration" data-value="61063927">061ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                      </tbody>
+
+          <tfoot class="total">
+            <tr>
+              <td>15</td>
+              <td>66</td>
+              <td class="duration">1m 56s 629ms</td>
+              <td class="duration">1s 767ms</td>
+              <td>Totals</td>
+            </tr>
+          </tfoot>
+
+        </table>
+          </div>
+  </div>
+</div>
+
+
+<nav class="navbar navbar-default" id="footer">
+  <div class="container-fluid">
+    <p class="navbar-text navbar-right">
+        <small>generate Cucumber HTML reports via:&nbsp;</small>
+        <a class="navbar-link" href="https://github.com/jenkinsci/cucumber-reports-plugin">Jenkins Plugin</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/cucumber-reporting">Standalone</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/cucumber-sandwich">Sandwich</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/maven-cucumber-reporting">Maven</a>
+        &nbsp;&nbsp;
+    </p>
+  </div>
+</nav>
+
+</body>
+</html>

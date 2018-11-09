@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="Step_definitions.RunnerTest" time="116.936" tests="75" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_181\jre\bin"/>
+    <property name="java.vm.version" value="25.181-b13"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\mesh\IdeaProjects\Randle"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\mesh\IdeaProjects\Randle"/>
+    <property name="java.runtime.version" value="1.8.0_181-b13"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_181\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\mesh\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:\Program Files\Apache Software Foundation\apache-maven-3.5.4\bin\..\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_181\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\ManagementStudio\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\DTS\Binn\;C:\Program Files\Microsoft SQL Server\120\DTS\Binn\;C:\Program Files (x86)\HPE\LoadRunner\strawberry-perl\perl\bin;C:\strawberry\c\bin;C:\strawberry\perl\bin;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk1.8.0_181\bin;C:\Program Files\Apache Software Foundation\apache-maven-3.5.4\bin;C:\Program Files\Java\jdk1.8.0_181\bin;C:\Windows\System32;C:\Program Files\nodejs\;C:\Users\mesh\AppData\Local\Microsoft\WindowsApps;C:\Windows\System32;C:\Users\mesh\AppData\Roaming\npm;."/>
+    <property name="maven.conf" value="C:\Program Files\Apache Software Foundation\apache-maven-3.5.4\bin\../conf"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="library.jansi.path" value="C:\Program Files\Apache Software Foundation\apache-maven-3.5.4\bin\..\lib\jansi-native"/>
+    <property name="user.home" value="C:\Users\mesh"/>
+    <property name="user.timezone" value="America/Chicago"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="mesh"/>
+    <property name="java.class.path" value="C:\Program Files\Apache Software Foundation\apache-maven-3.5.4\bin\..\boot\plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_181\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_181"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_181\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_181\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_181\jre\classes"/>
+    <property name="sun.stderr.encoding" value="cp437"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Program Files\Apache Software Foundation\apache-maven-3.5.4\bin\.."/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.stdout.encoding" value="cp437"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="Given I am on the home page" classname="Scenario: As a user I want to reset my Password" time="0.003"/>
+  <testcase name="And I see a logo Banner" classname="Scenario: As a user I want to reset my Password" time="0"/>
+  <testcase name="And I click SignIn button" classname="Scenario: As a user I want to reset my Password" time="0"/>
+  <testcase name="And I click forgot password Link" classname="Scenario: As a user I want to reset my Password" time="0.001"/>
+  <testcase name="And I enter user email &quot;maxtest964@gmail.com&quot; details" classname="Scenario: As a user I want to reset my Password" time="0"/>
+  <testcase name="And I click retrieve password button" classname="Scenario: As a user I want to reset my Password" time="0"/>
+  <testcase name="Then I should see a confirmation message" classname="Scenario: As a user I want to reset my Password" time="0"/>
+  <testcase name="And I click back to login button" classname="Scenario: As a user I want to reset my Password" time="0"/>
+  <testcase name="Scenario: As a user I want to reset my Password" classname="Scenario: As a user I want to reset my Password" time="0.002"/>
+  <testcase name="Given I am on the home page" classname="Scenario: As a user I want to see an error reset my Password with unregistered email" time="0.001"/>
+  <testcase name="And I see a logo Banner" classname="Scenario: As a user I want to see an error reset my Password with unregistered email" time="0"/>
+  <testcase name="When I click SignIn button" classname="Scenario: As a user I want to see an error reset my Password with unregistered email" time="0"/>
+  <testcase name="And I click forgot password Link" classname="Scenario: As a user I want to see an error reset my Password with unregistered email" time="0"/>
+  <testcase name="And I enter unregistered user email &quot;maxtest77@gmail.com&quot; details" classname="Scenario: As a user I want to see an error reset my Password with unregistered email" time="0.001"/>
+  <testcase name="And I click retrieve password button" classname="Scenario: As a user I want to see an error reset my Password with unregistered email" time="0"/>
+  <testcase name="Then I should see an error message" classname="Scenario: As a user I want to see an error reset my Password with unregistered email" time="0"/>
+  <testcase name="And I click back to login button" classname="Scenario: As a user I want to see an error reset my Password with unregistered email" time="0"/>
+  <testcase name="Scenario: As a user I want to see an error reset my Password with unregistered email" classname="Scenario: As a user I want to see an error reset my Password with unregistered email" time="0"/>
+  <testcase name="Given I am on the home page" classname="| bradj4244@gmail.com | WrongPWD1 | Authentication failed. |" time="0"/>
+  <testcase name="And I see a logo Banner" classname="| bradj4244@gmail.com | WrongPWD1 | Authentication failed. |" time="0"/>
+  <testcase name="When I click SignIn button" classname="| bradj4244@gmail.com | WrongPWD1 | Authentication failed. |" time="0"/>
+  <testcase name="And I enter user email &quot;bradj4244@gmail.com&quot; details" classname="| bradj4244@gmail.com | WrongPWD1 | Authentication failed. |" time="0"/>
+  <testcase name="And I enter user password &quot;WrongPWD1&quot; details" classname="| bradj4244@gmail.com | WrongPWD1 | Authentication failed. |" time="0"/>
+  <testcase name="And I click the Login Button" classname="| bradj4244@gmail.com | WrongPWD1 | Authentication failed. |" time="0"/>
+  <testcase name="Then I should see an error &quot;Authentication failed.&quot; message details" classname="| bradj4244@gmail.com | WrongPWD1 | Authentication failed. |" time="0"/>
+  <testcase name="| bradj4244@gmail.com | WrongPWD1 | Authentication failed. |" classname="| bradj4244@gmail.com | WrongPWD1 | Authentication failed. |" time="0"/>
+  <testcase name="Given I am on the home page" classname="| bradjohn21@yahoo.com |  | Password is required. |" time="0"/>
+  <testcase name="And I see a logo Banner" classname="| bradjohn21@yahoo.com |  | Password is required. |" time="0"/>
+  <testcase name="When I click SignIn button" classname="| bradjohn21@yahoo.com |  | Password is required. |" time="0"/>
+  <testcase name="And I enter user email &quot;bradjohn21@yahoo.com&quot; details" classname="| bradjohn21@yahoo.com |  | Password is required. |" time="0"/>
+  <testcase name="And I enter user password &quot;&quot; details" classname="| bradjohn21@yahoo.com |  | Password is required. |" time="0"/>
+  <testcase name="And I click the Login Button" classname="| bradjohn21@yahoo.com |  | Password is required. |" time="0"/>
+  <testcase name="Then I should see an error &quot;Password is required.&quot; message details" classname="| bradjohn21@yahoo.com |  | Password is required. |" time="0"/>
+  <testcase name="| bradjohn21@yahoo.com |  | Password is required. |" classname="| bradjohn21@yahoo.com |  | Password is required. |" time="0.001"/>
+  <testcase name="Given I am on the home page" classname="|  | Tomorrow1 | An email address required. |" time="0"/>
+  <testcase name="And I see a logo Banner" classname="|  | Tomorrow1 | An email address required. |" time="0"/>
+  <testcase name="When I click SignIn button" classname="|  | Tomorrow1 | An email address required. |" time="0"/>
+  <testcase name="And I enter user email &quot;&quot; details" classname="|  | Tomorrow1 | An email address required. |" time="0"/>
+  <testcase name="And I enter user password &quot;Tomorrow1&quot; details" classname="|  | Tomorrow1 | An email address required. |" time="0"/>
+  <testcase name="And I click the Login Button" classname="|  | Tomorrow1 | An email address required. |" time="0"/>
+  <testcase name="Then I should see an error &quot;An email address required.&quot; message details" classname="|  | Tomorrow1 | An email address required. |" time="0"/>
+  <testcase name="|  | Tomorrow1 | An email address required. |" classname="|  | Tomorrow1 | An email address required. |" time="0"/>
+  <testcase name="Given I am on the home page" classname="| wrongemail@hotmail.com | WrongPWD2 | Authentication failed. |" time="0"/>
+  <testcase name="And I see a logo Banner" classname="| wrongemail@hotmail.com | WrongPWD2 | Authentication failed. |" time="0"/>
+  <testcase name="When I click SignIn button" classname="| wrongemail@hotmail.com | WrongPWD2 | Authentication failed. |" time="0.001"/>
+  <testcase name="And I enter user email &quot;wrongemail@hotmail.com&quot; details" classname="| wrongemail@hotmail.com | WrongPWD2 | Authentication failed. |" time="0"/>
+  <testcase name="And I enter user password &quot;WrongPWD2&quot; details" classname="| wrongemail@hotmail.com | WrongPWD2 | Authentication failed. |" time="0"/>
+  <testcase name="And I click the Login Button" classname="| wrongemail@hotmail.com | WrongPWD2 | Authentication failed. |" time="0"/>
+  <testcase name="Then I should see an error &quot;Authentication failed.&quot; message details" classname="| wrongemail@hotmail.com | WrongPWD2 | Authentication failed. |" time="0"/>
+  <testcase name="| wrongemail@hotmail.com | WrongPWD2 | Authentication failed. |" classname="| wrongemail@hotmail.com | WrongPWD2 | Authentication failed. |" time="0"/>
+  <testcase name="Given I am on the home page" classname="|  |  | An email address required. |" time="0"/>
+  <testcase name="And I see a logo Banner" classname="|  |  | An email address required. |" time="0"/>
+  <testcase name="When I click SignIn button" classname="|  |  | An email address required. |" time="0"/>
+  <testcase name="And I enter user email &quot;&quot; details" classname="|  |  | An email address required. |" time="0"/>
+  <testcase name="And I enter user password &quot;&quot; details" classname="|  |  | An email address required. |" time="0"/>
+  <testcase name="And I click the Login Button" classname="|  |  | An email address required. |" time="0"/>
+  <testcase name="Then I should see an error &quot;An email address required.&quot; message details" classname="|  |  | An email address required. |" time="0"/>
+  <testcase name="|  |  | An email address required. |" classname="|  |  | An email address required. |" time="0"/>
+  <testcase name="Given I am on the home page" classname="| bradjohn47@aol.com | ********** | Authentication failed. |" time="0"/>
+  <testcase name="And I see a logo Banner" classname="| bradjohn47@aol.com | ********** | Authentication failed. |" time="0"/>
+  <testcase name="When I click SignIn button" classname="| bradjohn47@aol.com | ********** | Authentication failed. |" time="0"/>
+  <testcase name="And I enter user email &quot;bradjohn47@aol.com&quot; details" classname="| bradjohn47@aol.com | ********** | Authentication failed. |" time="0"/>
+  <testcase name="And I enter user password &quot;**********&quot; details" classname="| bradjohn47@aol.com | ********** | Authentication failed. |" time="0"/>
+  <testcase name="And I click the Login Button" classname="| bradjohn47@aol.com | ********** | Authentication failed. |" time="0"/>
+  <testcase name="Then I should see an error &quot;Authentication failed.&quot; message details" classname="| bradjohn47@aol.com | ********** | Authentication failed. |" time="0"/>
+  <testcase name="| bradjohn47@aol.com | ********** | Authentication failed. |" classname="| bradjohn47@aol.com | ********** | Authentication failed. |" time="0"/>
+  <testcase name="Given I am on the home page" classname="| bradj4244@gmail.com | Tomorrow1 |" time="0"/>
+  <testcase name="And I see a logo Banner" classname="| bradj4244@gmail.com | Tomorrow1 |" time="0"/>
+  <testcase name="When I click SignIn button" classname="| bradj4244@gmail.com | Tomorrow1 |" time="0"/>
+  <testcase name="And I enter user email &quot;bradj4244@gmail.com&quot; details" classname="| bradj4244@gmail.com | Tomorrow1 |" time="0"/>
+  <testcase name="And I enter user password &quot;Tomorrow1&quot; details" classname="| bradj4244@gmail.com | Tomorrow1 |" time="0"/>
+  <testcase name="And I click the Login Button" classname="| bradj4244@gmail.com | Tomorrow1 |" time="0"/>
+  <testcase name="Then I should be logged in successfully" classname="| bradj4244@gmail.com | Tomorrow1 |" time="0"/>
+  <testcase name="And I Sign out" classname="| bradj4244@gmail.com | Tomorrow1 |" time="0"/>
+  <testcase name="| bradj4244@gmail.com | Tomorrow1 |" classname="| bradj4244@gmail.com | Tomorrow1 |" time="0"/>
+</testsuite>

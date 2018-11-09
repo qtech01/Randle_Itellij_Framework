@@ -1,0 +1,1182 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "As a user I want to reset my Password",
+        "description": "",
+        "id": "forgot-password;as-a-user-i-want-to-reset-my-password",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 9647049301,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am on the home page",
+            "match": {
+              "location": "Common.i_am_on_the_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 121064160,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I see a logo Banner",
+            "match": {
+              "location": "Common.i_see_a_logo_Banner()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1380810133,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click SignIn button",
+            "match": {
+              "location": "Login.i_click_SignIn_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 696702784,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I click forgot password Link",
+            "match": {
+              "location": "ForgotPassword.iClickForgotPasswordLink()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 188764039,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I enter user email \"maxtest964@gmail.com\" details",
+            "match": {
+              "arguments": [
+                {
+                  "val": "maxtest964@gmail.com",
+                  "offset": 20
+                }
+              ],
+              "location": "Login.iEnterUserEmailDetails(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 943168453,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I click retrieve password button",
+            "match": {
+              "location": "ForgotPassword.iClickRetrievePasswordButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 51086670,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I should see a confirmation message",
+            "match": {
+              "location": "ForgotPassword.iShouldSeeAConfirmationMessage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2885325931,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I click back to login button",
+            "match": {
+              "location": "ForgotPassword.iClickBackToLoginButton()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Forgot Password",
+    "description": "",
+    "id": "forgot-password",
+    "keyword": "Feature",
+    "uri": "ForgotPassword.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@ForgotPassword"
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "As a user I want to see an error reset my Password with unregistered email",
+        "description": "",
+        "id": "forgot-password-unregistered-email;as-a-user-i-want-to-see-an-error-reset-my-password-with-unregistered-email",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6489211211,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am on the home page",
+            "match": {
+              "location": "Common.i_am_on_the_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 156129183,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I see a logo Banner",
+            "match": {
+              "location": "Common.i_see_a_logo_Banner()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1003982318,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click SignIn button",
+            "match": {
+              "location": "Login.i_click_SignIn_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 904166832,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I click forgot password Link",
+            "match": {
+              "location": "ForgotPassword.iClickForgotPasswordLink()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 170941578,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I enter unregistered user email \"maxtest77@gmail.com\" details",
+            "match": {
+              "arguments": [
+                {
+                  "val": "maxtest77@gmail.com",
+                  "offset": 33
+                }
+              ],
+              "location": "ForgotPassword.iEnterUnregisteredUserEmailDetails(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 682389578,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I click retrieve password button",
+            "match": {
+              "location": "ForgotPassword.iClickRetrievePasswordButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 52938336,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I should see an error message",
+            "match": {
+              "location": "ForgotPassword.iShouldSeeAnErrorMessage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2250401335,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I click back to login button",
+            "match": {
+              "location": "ForgotPassword.iClickBackToLoginButton()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Forgot Password Unregistered Email",
+    "description": "",
+    "id": "forgot-password-unregistered-email",
+    "keyword": "Feature",
+    "uri": "ForgotPasswordUnregisteredEmail.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@ForgotPasswordUnregisteredEmail"
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 16,
+        "name": "As a user i want to see an error message when i login with invalid data",
+        "description": "",
+        "id": "invalidlogin;as-a-user-i-want-to-see-an-error-message-when-i-login-with-invalid-data;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 6604727371,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am on the home page",
+            "match": {
+              "location": "Common.i_am_on_the_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 188044647,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I see a logo Banner",
+            "match": {
+              "location": "Common.i_see_a_logo_Banner()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1084541224,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click SignIn button",
+            "match": {
+              "location": "Login.i_click_SignIn_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 247604474,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I enter user email \"bradj4244@gmail.com\" details",
+            "match": {
+              "arguments": [
+                {
+                  "val": "bradj4244@gmail.com",
+                  "offset": 20
+                }
+              ],
+              "location": "Login.iEnterUserEmailDetails(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2224838172,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I enter user password \"WrongPWD1\" details",
+            "match": {
+              "arguments": [
+                {
+                  "val": "WrongPWD1",
+                  "offset": 23
+                }
+              ],
+              "location": "Login.iEnterUserPasswordDetails(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 733848540,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I click the Login Button",
+            "match": {
+              "location": "Login.i_click_the_Login_Button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1558759025,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I should see an error \"Authentication failed.\" message details",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Authentication failed.",
+                  "offset": 23
+                }
+              ],
+              "location": "Login.iShouldSeeAnErrorMessageDetails(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@InvalidLogin"
+          }
+        ]
+      },
+      {
+        "line": 17,
+        "name": "As a user i want to see an error message when i login with invalid data",
+        "description": "",
+        "id": "invalidlogin;as-a-user-i-want-to-see-an-error-message-when-i-login-with-invalid-data;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 7596982936,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am on the home page",
+            "match": {
+              "location": "Common.i_am_on_the_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 66904909,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I see a logo Banner",
+            "match": {
+              "location": "Common.i_see_a_logo_Banner()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1017919033,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click SignIn button",
+            "match": {
+              "location": "Login.i_click_SignIn_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 232503762,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I enter user email \"bradjohn21@yahoo.com\" details",
+            "match": {
+              "arguments": [
+                {
+                  "val": "bradjohn21@yahoo.com",
+                  "offset": 20
+                }
+              ],
+              "location": "Login.iEnterUserEmailDetails(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2140990215,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I enter user password \"\" details",
+            "match": {
+              "arguments": [
+                {
+                  "val": "",
+                  "offset": 23
+                }
+              ],
+              "location": "Login.iEnterUserPasswordDetails(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 717028190,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I click the Login Button",
+            "match": {
+              "location": "Login.i_click_the_Login_Button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1365304937,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I should see an error \"Password is required.\" message details",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Password is required.",
+                  "offset": 23
+                }
+              ],
+              "location": "Login.iShouldSeeAnErrorMessageDetails(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@InvalidLogin"
+          }
+        ]
+      },
+      {
+        "line": 18,
+        "name": "As a user i want to see an error message when i login with invalid data",
+        "description": "",
+        "id": "invalidlogin;as-a-user-i-want-to-see-an-error-message-when-i-login-with-invalid-data;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 6514749647,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am on the home page",
+            "match": {
+              "location": "Common.i_am_on_the_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 313505406,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I see a logo Banner",
+            "match": {
+              "location": "Common.i_see_a_logo_Banner()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1143910239,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click SignIn button",
+            "match": {
+              "location": "Login.i_click_SignIn_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 110023210,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I enter user email \"\" details",
+            "match": {
+              "arguments": [
+                {
+                  "val": "",
+                  "offset": 20
+                }
+              ],
+              "location": "Login.iEnterUserEmailDetails(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2192169725,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I enter user password \"Tomorrow1\" details",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Tomorrow1",
+                  "offset": 23
+                }
+              ],
+              "location": "Login.iEnterUserPasswordDetails(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 729814437,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I click the Login Button",
+            "match": {
+              "location": "Login.i_click_the_Login_Button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1513513803,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I should see an error \"An email address required.\" message details",
+            "match": {
+              "arguments": [
+                {
+                  "val": "An email address required.",
+                  "offset": 23
+                }
+              ],
+              "location": "Login.iShouldSeeAnErrorMessageDetails(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@InvalidLogin"
+          }
+        ]
+      },
+      {
+        "line": 19,
+        "name": "As a user i want to see an error message when i login with invalid data",
+        "description": "",
+        "id": "invalidlogin;as-a-user-i-want-to-see-an-error-message-when-i-login-with-invalid-data;;5",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 6728556199,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am on the home page",
+            "match": {
+              "location": "Common.i_am_on_the_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 173902658,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I see a logo Banner",
+            "match": {
+              "location": "Common.i_see_a_logo_Banner()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1097970351,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click SignIn button",
+            "match": {
+              "location": "Login.i_click_SignIn_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 227313124,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I enter user email \"wrongemail@hotmail.com\" details",
+            "match": {
+              "arguments": [
+                {
+                  "val": "wrongemail@hotmail.com",
+                  "offset": 20
+                }
+              ],
+              "location": "Login.iEnterUserEmailDetails(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2179053173,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I enter user password \"WrongPWD2\" details",
+            "match": {
+              "arguments": [
+                {
+                  "val": "WrongPWD2",
+                  "offset": 23
+                }
+              ],
+              "location": "Login.iEnterUserPasswordDetails(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 788099698,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I click the Login Button",
+            "match": {
+              "location": "Login.i_click_the_Login_Button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1601777488,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I should see an error \"Authentication failed.\" message details",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Authentication failed.",
+                  "offset": 23
+                }
+              ],
+              "location": "Login.iShouldSeeAnErrorMessageDetails(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@InvalidLogin"
+          }
+        ]
+      },
+      {
+        "line": 20,
+        "name": "As a user i want to see an error message when i login with invalid data",
+        "description": "",
+        "id": "invalidlogin;as-a-user-i-want-to-see-an-error-message-when-i-login-with-invalid-data;;6",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 6618521326,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am on the home page",
+            "match": {
+              "location": "Common.i_am_on_the_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 213145943,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I see a logo Banner",
+            "match": {
+              "location": "Common.i_see_a_logo_Banner()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 942916993,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click SignIn button",
+            "match": {
+              "location": "Login.i_click_SignIn_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 96654731,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I enter user email \"\" details",
+            "match": {
+              "arguments": [
+                {
+                  "val": "",
+                  "offset": 20
+                }
+              ],
+              "location": "Login.iEnterUserEmailDetails(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2121393531,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I enter user password \"\" details",
+            "match": {
+              "arguments": [
+                {
+                  "val": "",
+                  "offset": 23
+                }
+              ],
+              "location": "Login.iEnterUserPasswordDetails(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 710906355,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I click the Login Button",
+            "match": {
+              "location": "Login.i_click_the_Login_Button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1656314163,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I should see an error \"An email address required.\" message details",
+            "match": {
+              "arguments": [
+                {
+                  "val": "An email address required.",
+                  "offset": 23
+                }
+              ],
+              "location": "Login.iShouldSeeAnErrorMessageDetails(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@InvalidLogin"
+          }
+        ]
+      },
+      {
+        "line": 21,
+        "name": "As a user i want to see an error message when i login with invalid data",
+        "description": "",
+        "id": "invalidlogin;as-a-user-i-want-to-see-an-error-message-when-i-login-with-invalid-data;;7",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 6308212132,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am on the home page",
+            "match": {
+              "location": "Common.i_am_on_the_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 192975892,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I see a logo Banner",
+            "match": {
+              "location": "Common.i_see_a_logo_Banner()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 984601640,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click SignIn button",
+            "match": {
+              "location": "Login.i_click_SignIn_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 192094613,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I enter user email \"bradjohn47@aol.com\" details",
+            "match": {
+              "arguments": [
+                {
+                  "val": "bradjohn47@aol.com",
+                  "offset": 20
+                }
+              ],
+              "location": "Login.iEnterUserEmailDetails(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2246425081,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I enter user password \"**********\" details",
+            "match": {
+              "arguments": [
+                {
+                  "val": "**********",
+                  "offset": 23
+                }
+              ],
+              "location": "Login.iEnterUserPasswordDetails(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 692213345,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I click the Login Button",
+            "match": {
+              "location": "Login.i_click_the_Login_Button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1547576249,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I should see an error \"Authentication failed.\" message details",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Authentication failed.",
+                  "offset": 23
+                }
+              ],
+              "location": "Login.iShouldSeeAnErrorMessageDetails(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@InvalidLogin"
+          }
+        ]
+      }
+    ],
+    "name": "InvalidLogin",
+    "description": "",
+    "id": "invalidlogin",
+    "keyword": "Feature",
+    "uri": "InvalidLogin.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@InvalidLogin"
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 17,
+        "name": "As a user i want to login successfully",
+        "description": "",
+        "id": "login;as-a-user-i-want-to-login-successfully;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 6873135913,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am on the home page",
+            "match": {
+              "location": "Common.i_am_on_the_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 319628640,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I see a logo Banner",
+            "match": {
+              "location": "Common.i_see_a_logo_Banner()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1064286264,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click SignIn button",
+            "match": {
+              "location": "Login.i_click_SignIn_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 224168698,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I enter user email \"bradj4244@gmail.com\" details",
+            "match": {
+              "arguments": [
+                {
+                  "val": "bradj4244@gmail.com",
+                  "offset": 20
+                }
+              ],
+              "location": "Login.iEnterUserEmailDetails(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2213718378,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I enter user password \"Tomorrow1\" details",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Tomorrow1",
+                  "offset": 23
+                }
+              ],
+              "location": "Login.iEnterUserPasswordDetails(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000273854,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I click the Login Button",
+            "match": {
+              "location": "Login.i_click_the_Login_Button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 61063927,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I should be logged in successfully",
+            "match": {
+              "location": "Login.i_should_be_logged_in_successfully()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1630652562,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I Sign out",
+            "match": {
+              "location": "Login.i_Sign_out()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@Login"
+          }
+        ]
+      }
+    ],
+    "name": "Login",
+    "description": "",
+    "id": "login",
+    "keyword": "Feature",
+    "uri": "Login.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@Login"
+      }
+    ]
+  }
+]
